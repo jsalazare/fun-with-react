@@ -10,6 +10,7 @@ import Counter from './components/Counter';
 import DestructuringStateAndProps from './components/DestructuringStateAndProps';
 import DestructuringPropsAndStateClassComponent
   from './components/DestructuringPropsAndStateClassComponent';
+import Events from './components/Events';
 
 function App() {
   return (
@@ -18,9 +19,11 @@ function App() {
       {/*<MyClass></MyClass>*/}
       {/*<NoJsx></NoJsx>*/}
       {/*<StateComponent></StateComponent>*/}
-      <Counter></Counter>
-      <DestructuringStateAndProps name="juan" age="13" ></DestructuringStateAndProps>
-      <DestructuringPropsAndStateClassComponent name="juan" age="13" ></DestructuringPropsAndStateClassComponent>
+      {/*<Counter></Counter>*/}
+      {/*<DestructuringStateAndProps name="juan" age="13" ></DestructuringStateAndProps>*/}
+      {/*<DestructuringPropsAndStateClassComponent name="juan" age="13" ></DestructuringPropsAndStateClassComponent>*/}
+      <Events></Events>
+
 
 
     </div>
