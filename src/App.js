@@ -11,6 +11,7 @@ import DestructuringStateAndProps from './components/DestructuringStateAndProps'
 import DestructuringPropsAndStateClassComponent
     from './components/DestructuringPropsAndStateClassComponent';
 import Events from './components/Events';
+import ParentComponent from './components/ParentComponent';
 
 function App() {
     return (
@@ -22,12 +23,15 @@ function App() {
             {/*<Counter></Counter>*/}
             {/*<DestructuringStateAndProps name="juan" age="13" ></DestructuringStateAndProps>*/}
             {/*<DestructuringPropsAndStateClassComponent name="juan" age="13" ></DestructuringPropsAndStateClassComponent>*/}
-            {/*================ Error Handling ==================*/}
-            <ErrorBoundary>
-              <MyElement name={'something Nice'}/>
-              <MyElement name={'ups not an error'}/>
-              <MyElement name={'error'}/>
-            </ErrorBoundary>
+            {/*<ErrorBoundary>*/}
+            {/*  <MyElement name={'something Nice'}/>*/}
+            {/*  <MyElement name={'ups not an error'}/>*/}
+            {/*  <MyElement name={'error'}/>*/}
+            {/*</ErrorBoundary>*/}
+            <Events></Events>
+            <ParentComponent></ParentComponent>
+
+
         </div>
     );
 }

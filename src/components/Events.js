@@ -11,9 +11,9 @@ export default class Events extends Component {
     }
 
     changeMessage = () => {
-        this.setState((prevState) => (
-            prevState.message = 'message changed'
-        ));
+        // this.setState((prevState) => {
+        //     prevState.message = 'message changued'
+        // })
         this.doSome();
     };
 
@@ -24,7 +24,7 @@ export default class Events extends Component {
     render() {
         return (
             <div>
-                <button onClick={this.changeMessage}>{this.state.message}</button>
+                <button onClick={this.changeMessage}>changue text</button>
             </div>
         )
     }
