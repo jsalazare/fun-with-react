@@ -12,6 +12,8 @@ import DestructuringPropsAndStateClassComponent
     from './components/DestructuringPropsAndStateClassComponent';
 import Events from './components/Events';
 import ParentComponent from './components/ParentComponent';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 
 function App() {
     return (
@@ -28,8 +30,10 @@ function App() {
             {/*  <MyElement name={'ups not an error'}/>*/}
             {/*  <MyElement name={'error'}/>*/}
             {/*</ErrorBoundary>*/}
-            <Events></Events>
-            <ParentComponent></ParentComponent>
+            {/*<Events></Events>*/}
+            {/*<ParentComponent></ParentComponent>*/}
+            <ClickCounter  name={'clickCounter prron'} incrementValues={5}></ClickCounter>
+            <HoverCounter  name={'hover counter prron'} incrementValues={10}></HoverCounter>
 
 
         </div>
