@@ -4,6 +4,8 @@ import Greet from './components/Greet';
 import MyClass from './components/ClassComponent'
 import NoJsx from './components/NoJSX'
 import MyElement from './components/MyElement';
+import PropsFunctionalComponents from './components/PropsFunctionalComponent'
+import PropsClassComponent from './components/PropsClassComponent'
 import ErrorBoundary from './components/ErrorBoundary';
 import StateComponent from './components/StateComponent';
 import Counter from './components/Counter';
@@ -21,6 +23,12 @@ function App() {
             {/*<Greet></Greet>*/}
             {/*<MyClass></MyClass>*/}
             {/*<NoJsx></NoJsx>*/}
+            {/*<PropsFunctionalComponents name= 'javier' >*/}
+            {/*  <p>Hello from children PropsFunctionalComponents</p>*/}
+            {/*</PropsFunctionalComponents>*/}
+            {/*<PropsClassComponent name='ermenegildo'>*/}
+            {/*  <p>Hello from children PropsClassComponent</p>*/}
+            {/*</PropsClassComponent>*/}
             {/*<StateComponent></StateComponent>*/}
             {/*<Counter></Counter>*/}
             {/*<DestructuringStateAndProps name="juan" age="13" ></DestructuringStateAndProps>*/}
@@ -32,8 +40,8 @@ function App() {
             {/*</ErrorBoundary>*/}
             {/*<Events></Events>*/}
             {/*<ParentComponent></ParentComponent>*/}
-            <ClickCounter  name={'clickCounter prron'} incrementValues={5}></ClickCounter>
-            <HoverCounter  name={'hover counter prron'} incrementValues={10}></HoverCounter>
+            {/*<ClickCounter  name={'clickCounter prron'} incrementValues={5}></ClickCounter>*/}
+            {/*<HoverCounter  name={'hover counter prron'} incrementValues={10}></HoverCounter>*/}
 
 
         </div>
