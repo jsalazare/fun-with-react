@@ -14,6 +14,7 @@ import DestructuringPropsAndStateClassComponent
     from './components/DestructuringPropsAndStateClassComponent';
 import Events from './components/Events';
 import ParentComponent from './components/ParentComponent';
+import ListsAndKeysElements from './components/ListsAndKeysElements';
 import ClickCounter from './components/ClickCounter';
 import HoverCounter from './components/HoverCounter';
 
@@ -42,6 +43,7 @@ function App() {
             {/*<ParentComponent></ParentComponent>*/}
             {/*<ClickCounter  name={'clickCounter prron'} incrementValues={5}></ClickCounter>*/}
             {/*<HoverCounter  name={'hover counter prron'} incrementValues={10}></HoverCounter>*/}
+            <ListsAndKeysElements></ListsAndKeysElements>
 
 
         </div>
